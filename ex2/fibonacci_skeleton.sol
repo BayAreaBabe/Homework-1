@@ -6,9 +6,9 @@ contract Fibonacci {
 		/* Carry out calculations to find the nth Fibonacci number */
 		require(position>=0)
 		if (position == 0) {
-			return result = 0;
+			return 0;
 		} else if (position == 1) {
-			return result = 1
+			return 1
 		} else calculate(position-1 + position-2);
 			
 	}
